@@ -1,0 +1,12 @@
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\bin\Debug\net7.0\DevManSys.Domain.deps.json
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\bin\Debug\net7.0\DevManSys.Domain.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\bin\Debug\net7.0\DevManSys.Domain.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.csproj.AssemblyReference.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.AssemblyInfoInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.AssemblyInfo.cs
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.csproj.CoreCompileInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\refint\DevManSys.Domain.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\DevManSys.Domain.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Domain\obj\Debug\net7.0\ref\DevManSys.Domain.dll

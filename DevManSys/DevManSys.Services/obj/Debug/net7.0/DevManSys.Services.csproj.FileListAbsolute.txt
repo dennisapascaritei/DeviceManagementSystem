@@ -1,0 +1,12 @@
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\bin\Debug\net7.0\DevManSys.Services.deps.json
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\bin\Debug\net7.0\DevManSys.Services.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\bin\Debug\net7.0\DevManSys.Services.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.csproj.AssemblyReference.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.AssemblyInfoInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.AssemblyInfo.cs
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.csproj.CoreCompileInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\refint\DevManSys.Services.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\DevManSys.Services.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Services\obj\Debug\net7.0\ref\DevManSys.Services.dll

@@ -1,0 +1,17 @@
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Dal.deps.json
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Dal.runtimeconfig.json
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Dal.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Dal.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Domain.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\bin\Debug\net7.0\DevManSys.Domain.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.csproj.AssemblyReference.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.AssemblyInfoInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.AssemblyInfo.cs
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.csproj.CoreCompileInputs.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.csproj.CopyComplete
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\refint\DevManSys.Dal.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\DevManSys.Dal.genruntimeconfig.cache
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.Dal\obj\Debug\net7.0\ref\DevManSys.Dal.dll
