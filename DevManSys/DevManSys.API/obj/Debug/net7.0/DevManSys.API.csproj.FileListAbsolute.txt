@@ -78,3 +78,17 @@ D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\DevMa
 D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\DevManSys.Domain.dll
 D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\DevManSys.Dal.pdb
 D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\DevManSys.Domain.pdb
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Bogus.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\EntityFramework.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\DevManSys.API.staticwebassets.runtime.json
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Angular\DeviceManagementSystem\DevManSys\DevManSys.API\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

@@ -49,18 +49,31 @@ namespace DevManSys.API.Controllers
            _ctx.Devices.Add(newDevice);
            await _ctx.SaveChangesAsync();
 
-           return Ok(newDevice);
+           return Ok(await _ctx.Devices.ToListAsync());
         }
 
         [HttpPut]
-        public async Task<ActionResult<Device>> UpdateDevice(Device updatedDevice, int id)
+        public async Task<ActionResult<Device>> UpdateDevice(Device updatedDevice)
         {
-            updatedDevice.DeviceId = id;
+            Device toBeUpdated = await _ctx.Devices.FirstOrDefaultAsync( d => d.DeviceId == updatedDevice.DeviceId);
 
-            _ctx.Devices.Update(updatedDevice);
+            if (toBeUpdated == null)
+                return NotFound("No resource with the corresponding id found.");
+
+            toBeUpdated.Name = updatedDevice.Name;
+            toBeUpdated.Manufacturer = updatedDevice.Manufacturer;
+            toBeUpdated.OperatingSystem = updatedDevice.OperatingSystem;
+            toBeUpdated.OSVersion = updatedDevice.OSVersion;
+            toBeUpdated.Processor = updatedDevice.Processor;
+            toBeUpdated.RAMAmount = updatedDevice.RAMAmount;
+            toBeUpdated.IsAvailable = updatedDevice.IsAvailable;
+
+           
+
+            _ctx.Devices.Update(toBeUpdated);
             await _ctx.SaveChangesAsync();
 
-            return Ok(updatedDevice);
+            return Ok(toBeUpdated);
         }
 
         [HttpDelete]
@@ -75,7 +88,7 @@ namespace DevManSys.API.Controllers
             _ctx.Devices.Remove(toDelete);
             await _ctx.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(await _ctx.Devices.ToListAsync());
         }
 
 

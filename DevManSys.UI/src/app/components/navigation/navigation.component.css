@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    height: 40px;
+    background-color: #1976d2;
+    justify-content: space-evenly;
+    align-content: center;
+}
+nav a {
+    height: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    align-content: center;
+}
+  
+nav a:hover {
+    background-color: #2a84df;
+}

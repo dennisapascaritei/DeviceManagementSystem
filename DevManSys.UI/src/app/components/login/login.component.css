@@ -1,0 +1,21 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #1976d2;
+    height: 60px;
+    flex-direction: row;
+}
+.toolbar button {
+    color: white;
+    font-weight: 600; 
+    border: none;
+    height: 40px;
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 3px;
+    background-color: #1976d2;
+}
+.toolbar button:hover{
+    background-color: #2a84df;
+}

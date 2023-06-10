@@ -1,0 +1,33 @@
+<div>
+    <h1>List of All Devices</h1>
+    <button (click)="newDevice()">Add New Item</button>
+    <app-device-details [device]="deviceToEdit"></app-device-details>
+    <table>
+        <thead>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Manufacturer</th>
+          <th>Operating System</th>
+          <th>OS Version</th>
+          <th>Procesor</th>
+          <th>RAM Amount</th>
+          <th>Is Available</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let device of devices">
+                <td>{{device.name}}</td>
+                <td>{{device.type}}</td>
+                <td>{{device.manufacturer}}</td>
+                <td>{{device.operatingSystem}}</td>
+                <td>{{device.osVersion}}</td>
+                <td>{{device.processor}}</td>
+                <td>{{device.ramAmount}}GB</td>
+                <td>{{device.isAvailable}}</td>
+                <td><button (click)="editDevice(device)"><a routerLink="/detail/{{device.deviceId}}">Edit</a></button></td>
+                <td><button>Assign</button></td>
+                <td><button (click)="deleteDevice(device)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    
+</div>

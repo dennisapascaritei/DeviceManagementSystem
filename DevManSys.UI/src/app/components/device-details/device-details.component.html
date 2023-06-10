@@ -1,0 +1,39 @@
+<div *ngIf="device">
+    <h2>{{device.name}}</h2>
+    <div>
+        Name:
+        <input [(ngModel)]="device.name" placeholder="Name"
+        name="name" ng-model="device.name" ng-required="true"/>
+    </div>
+    <div>
+        Type:
+        <input [(ngModel)]="device.type" placeholder="Name"/>
+    </div>
+    <div>
+        Manufacturer:
+        <input [(ngModel)]="device.manufacturer" placeholder="Manufacturer"/>
+    </div>
+    <div>
+        Operating System:
+        <input [(ngModel)]="device.operatingSystem" placeholder="Operating System"/>
+    </div>
+    <div>
+        OS Version:
+        <input [(ngModel)]="device.osVersion" placeholder="OS Version"/>
+    </div>
+    <div>
+        Processor:
+        <input [(ngModel)]="device.processor" placeholder="Processor"/>
+    </div>
+    <div>
+        RAM Amount:
+        <input [(ngModel)]="device.ramAmount" placeholder="RAM Amount"/>
+    </div>
+    <div>
+        Is Available:
+        <input [(ngModel)]="device.isAvailable" placeholder="Is Available"/>
+    </div>
+    <button (click)="createDevice(device)" *ngIf="!device.deviceId">Create</button>
+    <button (click)="updateDevice(device)" *ngIf="device.deviceId">Save</button>
+    <button (click)="goBack()" *ngIf="device.deviceId">Back</button>
+</div>

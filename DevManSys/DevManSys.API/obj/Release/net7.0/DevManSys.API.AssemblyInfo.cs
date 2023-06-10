@@ -11,6 +11,10 @@
 using System;
 using System.Reflection;
 
+<<<<<<< Updated upstream
+=======
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevManSys.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

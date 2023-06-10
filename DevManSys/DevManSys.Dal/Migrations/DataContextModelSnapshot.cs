@@ -55,6 +55,10 @@ namespace DevManSys.Dal.Migrations
                     b.Property<int>("RAMAmount")
                         .HasColumnType("int");
 
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("DeviceId");
 
                     b.ToTable("Devices");
