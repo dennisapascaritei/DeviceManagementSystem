@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DevManSys",
+    "\\DevManSys\\DevManSys.Dal",
+    "\\DevManSys\\DevManSys.Dal\\bin\\Debug\\net7.0",
+    "\\DevManSys\\DevManSys.Dal\\obj",
+    "\\DevManSys\\DevManSys.Dal\\obj\\Debug",
+    "\\DevManSys\\DevManSys.Dal\\obj\\Debug\\net7.0",
+    "\\DevManSys\\obj"
+  ],
+  "SelectedNode": "\\DevManSys\\DevManSys.Dal\\obj\\Debug\\net7.0\\CreateTables.sql",
+  "PreviewInSolutionExplorer": false
+}

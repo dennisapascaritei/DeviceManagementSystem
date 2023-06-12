@@ -10,7 +10,6 @@ namespace DevManSys.Domain.Models
     public class Device
     {
         public int DeviceId { get; set; }
-        [Required]
         public string Name { get; set; }
         public string Type { get; set; }
         public string Manufacturer { get; set; }

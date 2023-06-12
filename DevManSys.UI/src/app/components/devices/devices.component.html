@@ -12,6 +12,7 @@
           <th>Procesor</th>
           <th>RAM Amount</th>
           <th>Is Available</th>
+          <th>User</th>
         </thead>
         <tbody>
           <tr *ngFor="let device of devices">
@@ -23,8 +24,9 @@
                 <td>{{device.processor}}</td>
                 <td>{{device.ramAmount}}GB</td>
                 <td>{{device.isAvailable}}</td>
+                <td>{{searchDeviceUser(device.deviceId)}}</td>
                 <td><button (click)="editDevice(device)"><a routerLink="/detail/{{device.deviceId}}">Edit</a></button></td>
-                <td><button>Assign</button></td>
+                <!--<td><button>Assign</button></td>-->
                 <td><button (click)="deleteDevice(device)">Delete</button></td>
           </tr>
         </tbody>

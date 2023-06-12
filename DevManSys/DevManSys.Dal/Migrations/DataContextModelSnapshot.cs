@@ -21,6 +21,27 @@ namespace DevManSys.Dal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("DevManSys.Domain.Models.Credentials", b =>
+                {
+                    b.Property<int>("CredentialsId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CredentialsId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CredentialsId");
+
+                    b.ToTable("Credentials");
+                });
+
             modelBuilder.Entity("DevManSys.Domain.Models.Device", b =>
                 {
                     b.Property<int>("DeviceId")
@@ -72,12 +93,11 @@ namespace DevManSys.Dal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
-                    b.Property<int>("DeviceId")
+                    b.Property<int>("CredentialsId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DeviceId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Location")
                         .IsRequired()
@@ -87,15 +107,13 @@ namespace DevManSys.Dal.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("CredentialsId");
 
                     b.HasIndex("DeviceId");
 
@@ -104,11 +122,19 @@ namespace DevManSys.Dal.Migrations
 
             modelBuilder.Entity("DevManSys.Domain.Models.User", b =>
                 {
+                    b.HasOne("DevManSys.Domain.Models.Credentials", "Credentials")
+                        .WithMany()
+                        .HasForeignKey("CredentialsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("DevManSys.Domain.Models.Device", "Device")
                         .WithMany()
                         .HasForeignKey("DeviceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Credentials");
 
                     b.Navigation("Device");
                 });

@@ -1,12 +1,14 @@
+import { Credentials } from "./credentials";
 import { Device } from "./device";
 
 export class User {
-    UserId?: number;
+    userId?: number;
     name = "";
     role = "";
     location = "";
-    email = "";
-    password = "";
+    credentialsId?: number;
+    credentials?: Credentials;
+    deviceId?: number;
     bookedDevice?: Device;
-    isAvailable = true;
+    
 }

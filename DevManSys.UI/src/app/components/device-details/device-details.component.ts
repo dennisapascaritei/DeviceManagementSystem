@@ -18,10 +18,14 @@ export class DeviceDetailsComponent {
     private router: ActivatedRoute, 
     private deviceService: DeviceService, 
     private location: Location) {}
+
+
   ngOnInit(): void {
     this.getDevice();
     this.getListDevices();
   }
+
+  //HTTP request based functions
   getDevice() {
     const id = Number(this.router.snapshot.paramMap.get('id'));
     this.deviceService.getDeviceById(id).subscribe((result : Device) => (this.device = result));
@@ -29,6 +33,16 @@ export class DeviceDetailsComponent {
 
   getListDevices() {
     this.deviceService.getAllDevices().subscribe((result : Device[]) => (this.devices = result));
+  }
+
+  createDevice(newDevice: Device) {
+    if (this.checkRequired(newDevice) && !this.checkAlreadyExisting(newDevice)) {
+      this.deviceService.createDevice(newDevice).subscribe((result: Device) => this.device = result);
+      window.location.reload();
+    }
+    else {
+      window.alert("The device already exists or one of the fields is blank.")
+    }
   }
 
   updateDevice(updateDevice: Device) {
@@ -40,22 +54,12 @@ export class DeviceDetailsComponent {
      window.alert("One of the fields is blank.")
   }
   
-  createDevice(newDevice: Device) {
-    console.log(this.checkAlreadyExisting(newDevice));
-    if (this.checkRequired(newDevice) && !this.checkAlreadyExisting(newDevice)) {
-      this.deviceService.createDevice(newDevice).subscribe((result: Device) => this.device = result);
-      window.location.reload();
-    }
-    else {
-      window.alert("The device already exists or one of the fields is blank.")
-    }
-  
-  }
-
+  //navigation button
   goBack(): void {
     this.location.back();
   }
 
+  //validation functions
   checkRequired( requirsCheckDev: Device): boolean {
     if (requirsCheckDev.name && 
       requirsCheckDev.type &&
@@ -70,7 +74,6 @@ export class DeviceDetailsComponent {
   }
     
   checkAlreadyExisting( alreadyExistingDev: Device): boolean {
-    console.log(this.devices)
     return this.devices.some(d =>
        d.name == alreadyExistingDev.name &&
       d.type == alreadyExistingDev.type &&

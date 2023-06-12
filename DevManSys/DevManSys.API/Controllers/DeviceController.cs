@@ -61,6 +61,7 @@ namespace DevManSys.API.Controllers
                 return NotFound("No resource with the corresponding id found.");
 
             toBeUpdated.Name = updatedDevice.Name;
+            toBeUpdated.Type = updatedDevice.Type;
             toBeUpdated.Manufacturer = updatedDevice.Manufacturer;
             toBeUpdated.OperatingSystem = updatedDevice.OperatingSystem;
             toBeUpdated.OSVersion = updatedDevice.OSVersion;
